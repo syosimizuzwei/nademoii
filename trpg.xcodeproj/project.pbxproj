@@ -14,6 +14,7 @@
 		1A9285911BE1140B001CE31C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9285901BE1140B001CE31C /* Images.xcassets */; };
 		1A9285941BE1140B001CE31C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9285921BE1140B001CE31C /* LaunchScreen.xib */; };
 		1A9285A01BE1140B001CE31C /* trpgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92859F1BE1140B001CE31C /* trpgTests.m */; };
+		1A9285AB1BE11EDF001CE31C /* MakeCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9285AA1BE11EDF001CE31C /* MakeCharacterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1A9285991BE1140B001CE31C /* trpgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trpgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A92859E1BE1140B001CE31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A92859F1BE1140B001CE31C /* trpgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trpgTests.m; sourceTree = "<group>"; };
+		1A9285A91BE11EDF001CE31C /* MakeCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCharacterViewController.h; sourceTree = "<group>"; };
+		1A9285AA1BE11EDF001CE31C /* MakeCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCharacterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1A9285881BE1140B001CE31C /* AppDelegate.m */,
 				1A92858A1BE1140B001CE31C /* ViewController.h */,
 				1A92858B1BE1140B001CE31C /* ViewController.m */,
+				1A9285A91BE11EDF001CE31C /* MakeCharacterViewController.h */,
+				1A9285AA1BE11EDF001CE31C /* MakeCharacterViewController.m */,
 				1A92858D1BE1140B001CE31C /* Main.storyboard */,
 				1A9285901BE1140B001CE31C /* Images.xcassets */,
 				1A9285921BE1140B001CE31C /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				1A92858C1BE1140B001CE31C /* ViewController.m in Sources */,
 				1A9285891BE1140B001CE31C /* AppDelegate.m in Sources */,
+				1A9285AB1BE11EDF001CE31C /* MakeCharacterViewController.m in Sources */,
 				1A9285861BE1140B001CE31C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
